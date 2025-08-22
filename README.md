@@ -17,15 +17,12 @@ This project demystifies how deep learning works under the hood — no TensorFlo
 
 ---
 
-## 📂 Project Structure
-```
-NN-from-scratch/
-│── data/                # Dataset (MNIST handled via torchvision or numpy)
-│── nn.py                # Core neural network implementation
-│── utils.py             # Helper functions (activations, accuracy, etc.)
-│── train.py             # Training loop with gradient descent
-│── README.md            # You’re here
-```
+## 🎯 Motivation
+To understand how deep learning works under the hood
+This repo strips things down to the **raw math + code**, so you truly understand:
+- How gradients flow
+- Why activation functions matter
+- How optimization works
 
 ---
 
@@ -38,11 +35,31 @@ NN-from-scratch/
 
 ---
 
+## 📊 Results
+- Trains on **MNIST (60k training images, 10k test images)**
+- Achieves **~90%+ accuracy** with just a simple 2-layer NN
+
+---
+
 ## 🏃 Usage
 Clone this repo:
 ```bash
 git clone https://github.com/yourusername/NN-from-scratch.git
 cd NN-from-scratch
+```
+
+---
+<!-- 
+---
+
+## 📂 Project Structure
+```
+NN-from-scratch/
+│── data/                # Dataset (MNIST handled via torchvision or numpy)
+│── nn.py                # Core neural network implementation
+│── utils.py             # Helper functions (activations, accuracy, etc.)
+│── train.py             # Training loop with gradient descent
+│── README.md            # You’re here
 ```
 
 Install dependencies:
@@ -55,24 +72,7 @@ Train the model:
 python train.py
 ```
 
----
-
-## 📊 Results
-- Trains on **MNIST (60k training images, 10k test images)**
-- Achieves **~90%+ accuracy** with just a simple 2-layer NN
-
----
-
-## 🎯 Motivation
-Most tutorials rely on PyTorch or TensorFlow.  
-This repo strips things down to the **raw math + code**, so you truly understand:
-- How gradients flow
-- Why activation functions matter
-- How optimization works
-
----
-
 ## 🌟 Future Work
 - Add more layers (deep NN)
 - Implement different optimizers (SGD, Adam)
-- Experiment with other datasets (CIFAR-10, Fashion-MNIST)
+- Experiment with other datasets (CIFAR-10, Fashion-MNIST) -->
